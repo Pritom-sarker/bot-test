@@ -19,4 +19,4 @@ if __name__ == '__main__':
     for row in reader: # each row is a list
       results.append(row)
   #print(results)
-  app.run(debug=True)
+  app.run(debug=True,host='66.42.118.86',port=80)
